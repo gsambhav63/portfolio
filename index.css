@@ -1,0 +1,60 @@
+html {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+        margin: 0;
+        padding: 0;
+    
+        align-items: baseline;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-flow: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav li:first-child {
+    font-size: 20px;
+    flex-basis: 100%;
+    text-align: center;
+    width: 100%;
+        text-align: center;
+}
+
+a {
+    padding: 1px;
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover {
+    color:rgb(233, 50, 50);
+}
+
+.button {
+    background-color: white;
+    color: red;
+    padding: 0.5rem;
+    border-radius: 100000000000px;
+}
+
+.button:hover {
+    background-color:rgb(233, 50, 50);
+    color: white;
+}
