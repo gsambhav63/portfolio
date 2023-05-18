@@ -1,0 +1,12 @@
+@media screen and (min-width: 1050px) {
+  nav {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: silver; */
+  }
+
+  nav li:first-child {
+    flex-basis: auto;
+    margin-right: auto;
+  }
+}

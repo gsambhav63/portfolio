@@ -1,0 +1,78 @@
+:root {
+    --black: #171321;
+    --white: #F8F9FA;
+    --one: #E9ECEF;
+    --two: #DEE2E6;
+    --three: #CED4DA;
+    --four: #ADB5BD;
+    --five: #6C757D;
+    --six: #495057;
+    --seven: #343A40;
+    --eight: #212529;
+
+
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+}
+
+html {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+
+    align-items: center;
+}
+
+.button {
+    background-color: white;
+    color: red;
+    padding: 0.5rem;
+    border-radius: 100000000000px;
+}
+
+.button:hover {
+    background-color: rgb(233, 50, 50);
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-flow: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav li:first-child {
+    font-size: 20px;
+    flex-basis: 100%;
+    text-align: center;
+    text-align: center;
+}
+
+nav a {
+    padding: 1px;
+    text-decoration: none;
+    color: var(--white);
+    display: block;
+}
+
+nav a:hover {
+    color: rgb(233, 50, 50);
+}
+
