@@ -1,78 +1,102 @@
 :root {
-    --black: #171321;
-    --white: #F8F9FA;
-    --one: #E9ECEF;
-    --two: #DEE2E6;
-    --three: #CED4DA;
-    --four: #ADB5BD;
-    --five: #6C757D;
-    --six: #495057;
-    --seven: #343A40;
-    --eight: #212529;
+  --black: #171321;
+  --white: #f8f9fa;
+  --one: #e9ecef;
+  --two: #dee2e6;
+  --three: #ced4da;
+  --four: #adb5bd;
+  --five: #6c757d;
+  --six: #495057;
+  --seven: #343a40;
+  --eight: #212529;
 
-
-    font-family: 'Mochiy Pop P One', sans-serif;
-    font-family: 'Noto Serif JP', serif;
+  --fonta: "Mochiy Pop P One", sans-serif;
+  font-family: "Noto Serif JP", serif;
 }
 
 html {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
+  background-color: black;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
 
-    align-items: center;
+  align-items: center;
 }
 
 .button {
-    background-color: white;
-    color: red;
-    padding: 0.5rem;
-    border-radius: 100000000000px;
+  background-color: white;
+  color: red;
+  padding: 0.5rem;
+  border-radius: 100000000000px;
 }
 
 .button:hover {
-    background-color: rgb(233, 50, 50);
-    color: white;
+  background-color: rgb(233, 50, 50);
+  color: white;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    flex-flow: wrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-flow: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
 nav li:first-child {
-    font-size: 20px;
-    flex-basis: 100%;
-    text-align: center;
-    text-align: center;
+  font-size: 20px;
+  flex-basis: 100%;
+  text-align: center;
+  text-align: center;
 }
 
 nav a {
-    padding: 1px;
-    text-decoration: none;
-    color: var(--white);
-    display: block;
+  padding: 1px;
+  text-decoration: none;
+  color: var(--white);
+  display: block;
 }
 
 nav a:hover {
-    color: rgb(233, 50, 50);
+  color: rgb(233, 50, 50);
 }
 
+/* after nav bar comes the paragraph */
+/* intro section  */
+
+#intro {
+  background-color:black;
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#intro p {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+#intro h2 {
+  color: white;
+}
+
+#intro p span {
+  color: white;
+  font-size: 5rem;
+  color: aqua;
+  display: block;
+}
